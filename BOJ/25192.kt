@@ -9,6 +9,7 @@ fun main(args : Array<String>) {
 
     var count = 0
     val hashSet = hashSetOf<String>()
+    
     repeat(n) {
         when(val person = br.readLine()) {
             "ENTER" -> {
