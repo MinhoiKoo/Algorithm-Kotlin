@@ -10,6 +10,7 @@ fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
 
+
     n = br.readLine().toInt()
     array = arrayListOf()
     repeat(n) {
